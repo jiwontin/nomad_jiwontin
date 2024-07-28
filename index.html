@@ -1,3 +1,35 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanilla JS Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="clock"></div>  
+    
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Enter your name" required>
+      <button type="submit">Login</button>
+    </form>
+    <div id="greeting" class="hidden"></div>
 
-안
+    <form id="todo-form" class="hidden">
+      <input type="text" id="todo-input" placeholder="Enter your task" required>
+      <button type="submit">Add</button>
+    </form>
+    <ul id="todo-list"></ul>
+
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="background.js"></script>
+  <script src="weather.js"></script>
+</body>
+</html>
