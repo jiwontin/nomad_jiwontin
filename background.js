@@ -1,4 +1,4 @@
-const images = ["C:\Users\jiwon\Desktop\졸업과제\app1.jpeg", "C:\Users\jiwon\Desktop\졸업과제\app2.jpg", "C:\Users\jiwon\Desktop\졸업과제\app3.jpg"];
+const images = ["app1.jpeg", "app2.jpg", "app3.jpg"];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
